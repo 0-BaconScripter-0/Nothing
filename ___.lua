@@ -1,11 +1,11 @@
 local library = {flags = {}, windows = {}, open = true}
 
 --Services
-local runService = game:GetService"RunService"
-local tweenService = game:GetService"TweenService"
-local textService = game:GetService"TextService"
-local inputService = game:GetService"UserInputService"
-local ui = Enum.UserInputType.MouseButton1
+local runService = game:GetService("RunService")
+local tweenService = game:GetService("TweenService")
+local textService = game:GetService("TextService")
+local inputService = game:GetService("UserInputService")
+
 --Locals
 local dragging, dragInput, dragStart, startPos, dragObject
 
